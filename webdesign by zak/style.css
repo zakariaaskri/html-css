@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    background-image: url(thelg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    background-color:skyblue;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: -10px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+ul{
+    float: right;
+    margin-right: 20px;
+}
+ul > li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 15px;
+}
+a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px,13px;
+    border-radius: 3px;  
+}
+/*
+.active,a:hover{
+    background:gray;
+    transition: 2s;
+}
+*/
+form{
+    position: absolute;
+    background-color: black;
+    height:420px;
+    width:320px;
+    margin: 20px auto;
+    padding: 10px;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+img{
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    top: -50px;
+    
+}
+#div1{
+    margin-top: 150px;
+
+}
+input{
+    
+    width: 100%;
+    margin-bottom: 20px;
+    border:none;
+    border-bottom:1px solid blanchedalmond ;
+    color: wheat;
+    border-radius: 20px;
+    background-color: black;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+     h1{
+     position: absolute;
+    color:wheat;
+    font-size: 40px;
+    font-weight: bold;
+    top: 50px;
+    left: 65px;
+    
+    
+}
+.a2{
+    position: relative;
+    margin-top: 100px;
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: none;
+    margin: 20px;
+
+
+}
+    
+
+.a2:hover{
+    color: yellowgreen;
+    transition: none;
+    text-transform: uppercase;
+}
+.btn{
+    position:relative;
+    width:100%;
+    color: white;
+    background-color: turquoise;
+    border-radius:20px;
+    font-size: 20px;
+    top:20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: greenyellow;
+    color: black;
+}
